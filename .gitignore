@@ -1,0 +1,10 @@
+# 原始语料约 19MB，不入库；运行 01 脚本可自动下载还原
+data/weibo_senti_100k.csv
+data/_raw_repo.zip
+# 中间分词文件体积较大，入库测度结果即可（可选放开）
+data/train_seg.csv
+data/test_seg.csv
+data/sample_data.csv
+# Python
+__pycache__/
+*.pyc
